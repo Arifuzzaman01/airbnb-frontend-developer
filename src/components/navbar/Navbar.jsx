@@ -117,7 +117,7 @@ const SearchBar = () => (
 
 // Main Application Container
 const Navbar = () => (
-  <div className="w-full bg-white sticky top-0 z-10 ">
+  <div className="container mx-auto bg-white sticky top-0 z-10 ">
     <Header />
     <SearchBar />
   </div>

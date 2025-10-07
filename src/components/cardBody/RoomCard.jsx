@@ -11,7 +11,8 @@ const RoomCard = ({ cardData, title, active }) => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   return (
-    <div className="px-6 py-3 relative max-w-7xl mx-auto">
+    <div>
+      <div className="px-6 py-3 relative container mx-auto">
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-2xl font-semibold">{title} &gt;</h2>
@@ -51,6 +52,7 @@ const RoomCard = ({ cardData, title, active }) => {
           768: { slidesPerView: 3 },
           1024: { slidesPerView: 4 },
           1280: { slidesPerView: 6 },
+          1440: { slidesPerView: 7 },
         }}
       >
         {cardData.map((data) => (
@@ -94,6 +96,7 @@ const RoomCard = ({ cardData, title, active }) => {
           </SwiperSlide>
         ))}
       </Swiper>
+    </div>
     </div>
   );
 };

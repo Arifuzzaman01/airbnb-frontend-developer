@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/footer/Footer";
 import Bangkok from "./components/home/Bangkok";
 
 
@@ -9,10 +10,13 @@ function App() {
   return (
     <>
       <Navbar />
-      <main className="max-w-7xl mx-auto">
+      <main className="">
         <KualaLampur/>
         <Bangkok/>
       </main>
+      <footer>
+        <Footer/>
+      </footer>
     </>
   );
 }
