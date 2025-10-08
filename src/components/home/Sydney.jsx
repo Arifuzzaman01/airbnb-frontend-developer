@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import RoomCard from "../cardBody/RoomCard";
+import React from 'react';
+import RoomCard from '../cardBody/RoomCard';
 
-const KualaLampur = () => {
-  const cardData = [
+const Sydney = () => {
+    const cardData = [
   {
     id: 15,
     img: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
@@ -74,18 +74,11 @@ const KualaLampur = () => {
     location: "Singapore"
   }
 ];
- 
-  return (
-    <div
-      
-    >
-      <RoomCard
-        cardData={cardData}
-        title={"Popular Home in Kuala Lampur"}
-       
-      />
-    </div>
-  );
+    return (
+        <div>
+            <RoomCard cardData={cardData} title={'Popular homes in Sydney'}/>
+        </div>
+    );
 };
 
-export default KualaLampur;
+export default Sydney;

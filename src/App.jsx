@@ -4,6 +4,12 @@ import Bangkok from "./components/home/Bangkok";
 
 
 import KualaLampur from "./components/home/KualaLampur";
+import London from "./components/home/London";
+import Melbourne from "./components/home/Melbourne";
+import Osaka from "./components/home/Osaka";
+import Seoul from "./components/home/Seoul";
+import Sydney from "./components/home/Sydney";
+import Toronto from "./components/home/Toronto";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
@@ -13,6 +19,12 @@ function App() {
       <main className="">
         <KualaLampur/>
         <Bangkok/>
+        <London/>
+        <Toronto/>
+        <Seoul/>
+        <Osaka/>
+        <Melbourne/>
+        <Sydney/>
       </main>
       <footer>
         <Footer/>
