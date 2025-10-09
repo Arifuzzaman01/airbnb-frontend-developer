@@ -2,13 +2,13 @@ import React from 'react';
 import RoomCard from '../cardBody/RoomCard';
 
 const Osaka = () => {
-    // Array 1: Beach & Coastal Properties
+  
 const cardData = [
   {
     id: 1,
    img: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     title: "Budget Hotel Room Downtown",
-    title: "Oceanfront Villa with Private Beach",
+    
     price: 450,
     nights: 7,
     rating: 4.95,

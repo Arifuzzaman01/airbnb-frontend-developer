@@ -71,7 +71,7 @@ const FooterSecondaryTab = () => {
 
   return (
  
-      <div className="px-4 sm:px-6 lg:px-8 py-8">
+      <div className=" py-8">
         {/* Cities Grid */}
         <div className="mb-8 relative">
           <h3 className="text-lg font-semibold text-gray-900 mb-6">

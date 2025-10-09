@@ -7,7 +7,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { CiStar } from "react-icons/ci";
 import { useRef } from "react";
 
-const RoomCard = ({ cardData, title, active }) => {
+const RoomCard = ({ cardData, title }) => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   return (
@@ -47,7 +47,7 @@ const RoomCard = ({ cardData, title, active }) => {
           modules={[Navigation]}
           className="mySwiper"
           breakpoints={{
-            320: { slidesPerView: 1.2 },
+            320: { slidesPerView: 2 },
             640: { slidesPerView: 2 },
             768: { slidesPerView: 3 },
             1024: { slidesPerView: 4 },

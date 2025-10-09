@@ -65,7 +65,7 @@ const FooterActiveTab = () => {
 
   return (
     <footer className=" border-t border-gray-200">
-      <div className="max-w-7xl mx-auto  py-10">
+      <div className="   py-10">
         {/* Main Footer Sections */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6  mb-14">{
             topSection.map(top=> <div>
